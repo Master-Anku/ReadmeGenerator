@@ -1,22 +1,21 @@
 
-
 # ReadmeGenerator
 
 ## Description
-This Readme file write.
+Write readme file
 
-##Installation
-git clone repo-ssh
+## Installation
+git clone repo-Url
 
 ## Usage
-easy run to your terminal node  app.js
+Run to your terminal
 
 ## License
 MIL
 
 ## language
-undefined
+JavaScript,HTML,CSS,ES6,jQuery,Node
 
-##github 
-{data.github}
+## github 
+Master-Anku
     

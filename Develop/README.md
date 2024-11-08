@@ -2,19 +2,19 @@
 # ReadmeGenerator
 
 ## Description
-Write reademe file.
+Write readme file.
 
 ## Installation
-git clone git@github.com:Master-Anku/ReadmeGenerator.git
+git clone
 
 ## Usage
-your terminal open. node app
+Your terminal open node app
 
 ## License
-MIT
+MIL
 
 ## language
-JavaScript,HTML,CSS,ES6,Node
+JavaScript,HTML,CSS,ES6,jQuery,Bootstrap,Node
 
 ## github 
 Master-Anku

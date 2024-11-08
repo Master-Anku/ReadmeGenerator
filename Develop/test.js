@@ -136,3 +136,58 @@
 //       console.log('README file created! Check out README.md in this directory to see it!');
 //     });
 //   });
+
+
+const { error } = require('console');
+const { errorMonitor } = require('events');
+const fs = require('fs');
+const inquirer = require('inquirer');
+
+const questions = () => {
+    return inquirer.primot([
+        {
+            type: 'input',
+            name: 'name',
+            message: 'What is your name?'
+        },
+        {
+            type: 'input',
+            name: 'name',
+            message: 'What is your name?'
+        },
+        {
+            type: 'input',
+            name: 'name',
+            message: 'What is your name?'
+        },
+        {
+            type: 'input',
+            name: 'name',
+            message: 'What is your name?'
+        },
+    ])
+}
+
+
+const SaveData = (data) => {
+    return `
+    # name
+    ${data.name}`
+}
+
+
+// questions()
+// .then(data => {
+//     const pageHtml = SaveData(data);
+// })
+
+questions()
+.then(data => {
+    const pageHtml = SaveData(data);
+
+    fs.writeFile('./README.md', pageHtml, error => {
+        if(error) throw new Error (error);
+
+        console.log('README file created! ...')
+    })
+})

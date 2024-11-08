@@ -1,7 +1,7 @@
 // (step: 1)
 const fs = require('fs');
 const inquirer = require('inquirer');
-const { type } = require('os');
+// const { type } = require('os');
 
 // step 2: readmeFile Function to prompt user for README details
 const readmeFile = () => {

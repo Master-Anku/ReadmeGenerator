@@ -1,7 +1,7 @@
 // (step: 1)
 const fs = require('fs');
 const inquirer = require('inquirer');
-// const { type } = require('os');
+
 
 // step 2: readmeFile Function to prompt user for README details
 const readmeFile = () => {
@@ -18,6 +18,8 @@ const readmeFile = () => {
                     console.log('Please enter your project title!');
                     return false;
                 }
+              
+          
             }
         },
         {
@@ -101,6 +103,9 @@ readmeFile()
       if (err) throw new Error(err);
 
       console.log('README file created! Check out README.md in this directory to see it!');
+
+      // This operator is frequently used as a shortcut for the if statement.(စမ်းသက် = မရ)
+    //   err ? console.log(err) : console.log('README file created!');
       console.log('Thanks, MR Anku!')
     });
   });

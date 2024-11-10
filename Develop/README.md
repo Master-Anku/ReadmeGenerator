@@ -2,16 +2,16 @@
 # ReadmeGenerator
 
 ## Description
-Write readme file.
+The readme file .
 
 ## Installation
-git clone
+git clone repo-url
 
 ## Usage
-Your terminal open node app
+your terminal node app
 
 ## License
-MIL
+MIT
 
 ## language
 JavaScript,HTML,CSS,ES6,jQuery,Bootstrap,Node
